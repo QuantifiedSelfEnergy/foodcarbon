@@ -1,22 +1,25 @@
 conversions = {
-	"led" : {"id":1,"slug":"led","unit":"hours with a LED lamp on","base_value":1,"name":"LED lamp","description":"led","icon":"","category_id":2,"carbon":0.006},
-	"fridge" : {"id":2,"slug":"fridge","unit":"years with a fridge on","base_value":1,"name":"New fridge","description":"led","icon":"","category_id":2,"carbon":200},
-	"bike" : {"id":3,"slug":"bike","unit":"km driving a electric assisted bike","base_value":1,"name":"Electric bike","description":"led","icon":"/images/solarpanel.jpg","category_id":3,"carbon":0.02},
-	"car" : {"id":4,"slug":"car","unit":"km driving an electric car","base_value":1,"name":"Electric car","description":"led","icon":"","category_id":3,"carbon":0.212},
-	"kwh" : {"id":5,"slug":"kwh","unit":"kwh","base_value":1,"name":"kwh","description":"led","icon":null,"category_id":1,"carbon":1.0},
-	"solarpanel" : {"id":6,"slug":"solarpanel","unit":"needed square meters of solar panels in a year.","base_value":1,"name":"Solar panel","description":"led","icon":"/images/solarpanel.jpg","category_id":1,"carbon":142.0},
-	"lightbulb" : {"id":7,"slug":"lightbulb","unit":"hours with a light bulb on","base_value":1,"name":"Light bulb","description":null,"icon":null,"category_id":2,"carbon":0.04},
-	"tv" : {"id":9,"slug":"tv","unit":"hours watching TV","base_value":1,"name":"TV","description":null,"icon":null,"category_id":2,"carbon":0.067},
-	"wifi" : {"id":10,"slug":"wifi","unit":"days with wifi on","base_value":1,"name":"WiFi","description":"wifi","icon":null,"category_id":2,"carbon":0.1368},
-	"heating" : {"id":11,"slug":"heating","unit":"years heating a house with electric radiators","base_value":1,"name":"Heating","description":null,"icon":null,"category_id":0,"carbon":10600},
-	"heatpump" : {"id":12,"slug":"heatpump","unit":"years heating a house with a geothermal heatpump","base_value":1,"name":"Heating with heat pump","description":null,"icon":null,"category_id":0,"carbon":3620},
-	"coal" : {"id":13,"slug":"coal","unit":"kg of coal needed to produce that electricity","base_value":1,"name":"Coal","description":null,"icon":null,"category_id":1,"carbon":2.1198},
-	"treadmill" : {"id":14,"slug":"treadmill","unit":"hours running in a treadmill to produce that electricity","base_value":1,"name":"Treadmill","description":null,"icon":null,"category_id":1,"carbon":0.1}
+	"beef" : {"id":1,"slug":"beef","unit":"kg of beef","base_value":1,"name":"Beef","description":"led","icon":"/images/units/led.jpg","category_id":2,"carbon":26.0},
+	"chicken" : {"id":2,"slug":"chicken","unit":"kg of chicken","base_value":1,"name":"Chicken","description":"led","icon":"/images/units/fridge.jpg","category_id":2,"carbon":3.0},
+	"egg" : {"id":3,"slug":"egg","unit":"dozens of eggs","base_value":1,"name":"Eggs","description":"led","icon":"/images/units/solarpanel.jpg","category_id":3,"carbon":1.125},
+	"beans" : {"id":4,"slug":"beans","unit":"kg of beans","base_value":1,"name":"Beans","description":"led","icon":"/images/units/car.jpg","category_id":3,"carbon":0.7},
+	"quorn" : {"id":5,"slug":"quorn","unit":"kg of quorn","base_value":1,"name":"Quorn","description":"led","icon":"/images/units/kwh.jpg","category_id":1,"carbon":4.0},
+	"fish" : {"id":6,"slug":"fish","unit":"kg of fish","base_value":1,"name":"Fish","description":"led","icon":"/images/units/solarpanel.jpg","category_id":1,"carbon":3.0},
+	"milk" : {"id":7,"slug":"milk","unit":"liters of milk or yogurt","base_value":1,"name":"Milk","description":null,"icon":"/images/units/lightbulb.jpg","category_id":2,"carbon":1.0},
+	"cheese" : {"id":9,"slug":"cheese","unit":"kg of cheese or butter","base_value":1,"name":"Cheese","description":null,"icon":"/images/units/tv.jpg","category_id":2,"carbon":8.0},
+	"potatoes" : {"id":10,"slug":"potatoes","unit":"kg of potatoes","base_value":1,"name":"Potatoes","description":"wifi","icon":"/images/units/router.jpg","category_id":2,"carbon":0.1},
+	"rice" : {"id":11,"slug":"rice","unit":"kg of rice","base_value":1,"name":"Rice","description":null,"icon":"/images/units/heating.jpg","category_id":4,"carbon":2.0},
+	"bread" : {"id":12,"slug":"bread","unit":"kg of bread or pasta","base_value":1,"name":"Bread","description":null,"icon":"/images/units/heating.jpg","category_id":4,"carbon":0.8},
+	"fruit" : {"id":13,"slug":"fruit","unit":"kg of fruit (domestic)","base_value":1,"name":"Fruit","description":null,"icon":"/images/units/coal.jpg","category_id":1,"carbon":0.2},
+	"vegetables" : {"id":14,"slug":"vegetables","unit":"kg of sallad vegetables (domestic)","base_value":1,"name":"Vegetables","description":null,"icon":"/images/units/treadmill.jpg","category_id":1,"carbon":1.0},
+	"airfreight" : {"id":15,"slug":"airfreight","unit":"kg of airfreighted fruit or vegetables","base_value":1,"name":"Airfreighted fruit","description":null,"icon":"/images/units/treadmill.jpg","category_id":1,"carbon":11.0},
+	"coffee" : {"id":16,"slug":"coffee","unit":"kg of coffee beans","base_value":1,"name":"Coffee","description":null,"icon":"/images/units/treadmill.jpg","category_id":1,"carbon":3.0},
+	"co2": {"id":17,"slug":"co2","unit":"kg of CO2","base_value":1,"name":"CO2","description":null,"icon":"/images/units/treadmill.jpg","category_id":1,"carbon":1.0}
 	
 };
 
 index = [
-  "kwh" ,  "bike" , "car" ,  "lightbulb" , "tv" , "led", "fridge" , "heating" , "heatpump" , "coal", "treadmill" , "solarpanel"
+  "beef" , "chicken" ,  "egg" , "beans" , "quorn", "fish" , "milk" , "cheese" , "potatoes", "rice" , "bread", "fruit", "vegetables", "airfreight", "coffee", "co2"
 ];
 
 

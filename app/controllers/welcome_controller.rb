@@ -3,9 +3,9 @@ class WelcomeController < ApplicationController
   def index
     @all = Conversion.all
     
-    @all.map {|c| c.amount = 100}
+    @all.map {|c| c.amount = 10}
     
-    @co2 = Conversion.find(5)
+    @co2 = Conversion.find(17)
     
     @random = @all.sample
     while @random.amount <= 1 do

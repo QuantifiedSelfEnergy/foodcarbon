@@ -4,7 +4,7 @@ class ConversionController < ApplicationController
     
   def index
     @all = Conversion.all
-    @all.map {|c| c.amount = co2}
+    @all.map {|c| c.amount   = co2}
     
     respond_to do |format|
       format.xml {render :xml => @all.to_xml(:skip_types => true)  }
