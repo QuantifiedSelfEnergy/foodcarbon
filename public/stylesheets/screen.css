@@ -89,14 +89,16 @@ h1{
 	margin-top:7px;
 }
 #info p{
-	font-size: 16px;
+	font-size: 19px;
 }
 #info{
   position: relative;
   float:left;
   left: 0px;
   margin: 0 auto;
-  width: 500px;
+  padding: 50px;
+  width: 100% -100px;
+  background-color:#ffffff;
 }
 #right_column{
   float:right;
